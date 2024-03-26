@@ -1,0 +1,452 @@
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { font-family: 'Do Hyeon', sans-serif; }
+
+h1{
+text-align: center;
+font-family: 'Roboto', sans-serif !important;
+}
+
+a{font-style: none;}
+a:hover{font-style: none;}
+
+img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    object-fit: cover;  
+}
+
+#project > div > div > div > div:nth-child(2) > div > div > div > img {
+    height: 100%;
+}
+
+#about{ margin: 25px 0; }
+#about p{ font-size: 25px ;}
+#about > div > div > div > p {text-align: center; font-size: 25px;}
+#introduce{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#introCon{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+#project{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#contact{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#contact p{
+    font-size: 20px;
+}
+
+.col-md-3 > p {
+    font-size: 16px;
+}
+
+#myPage > div.jumbotron.text-center > p {
+    color: darkslategrey;
+}
+
+.project p{font-size: 20px;}
+
+.navbar{
+    background-color: sienna; opacity: 0.9;
+    border: none;
+    transition: 0.5s;
+}
+.navbar a{
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+#project > div > div > div > div> a > img {
+    width: 95%;
+    height: 200px;
+    vertical-align: middle;
+    }
+
+#myPic{
+    margin: 25px;
+    width:300px;
+    height: 300px;
+    border-radius: 175px;
+    border: solid 10px burlywood;
+}
+
+
+
+
+.typer-text {
+    color:white;
+    padding-top: .2em;
+    z-index: 1;
+    filter: brightness(1);
+}
+
+
+
+.jumbotron {
+    height: 550px;
+    padding-top: 200px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+.jumbotron p{
+    text-shadow: -1px 0 -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.cotainer-fluid{
+    padding: 100px 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 200px;
+}
+
+.logo-small {
+    font-size: 50px;
+    color: rgb(65, 145, 250);
+}
+.col-sm-4{
+    padding: 25px 0
+}
+
+.modal__show > p {
+    font-style: none;
+    color:black;
+    font-size: 22px;
+}
+
+.modal__show > p:hover {
+    color:lightcoral;
+}
+
+#myNavbar > ul > li > a {
+    font-size: large;
+}
+
+#myPage > nav > div > div.navbar-header > a {
+    font-size:large;
+    font-weight: bold;
+}
+
+.col-xs-12{background-color: transparent; transition: 0.3s; border-radius: 10px; text-align: center;}
+.col-xs-12:hover{opacity: 1;}
+
+.poject.col-xs-12.col-sm-6.col-md-4.wow.fadeInUp {
+    margin-bottom: 40px;
+}
+
+.row span i{font-size: 100px;}
+h2{
+padding-bottom: 20px;
+}
+
+#aboutMe2 {display: none;}
+
+@media screen and (max-width:768px) {
+#about div>.col-sm-4{transform: translateY(-100px);}
+#about div>.col-sm-8{transform: translateY(340px);text-align: center;} 
+#history div>.col-sm-8{text-align: center;} 
+.col-sm-4 {
+    text-align: center;
+    margin: 10px 0;
+    }
+.project{
+    max-height: 400px;
+    }
+/* #project > div > div > div > div> a > img {
+    width: 100%;
+    max-height: 500px;
+    vertical-align: middle;
+} */
+}
+
+@media screen and (max-width:800px){
+.col-md-3 > p {
+    font-size: 22px;
+}
+.modal__show > p {
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width:600px){
+#aboutMe {
+    display: none;
+}
+#aboutMe2 {
+    display: block;
+    width:90%;
+    max-height:200px;
+}
+#about p { font-size: 14px;}
+
+#contact p{
+    font-size: 15px;
+}
+#about > div > div > div > p {text-align: center; font-size: 20px;}
+}
+
+@media screen and (max-width:400px){
+
+#aboutMe2 {
+    width:100%;
+}
+.modal__show > p {
+    font-size: 16px;
+}
+#introCon{
+    padding-left: 0;
+}
+
+#myPic{
+    margin: 15px;
+    width:260px;
+    height: 260px;
+    border-radius: 130px;
+}
+
+.jumbotron p {
+    font: 18px;
+
+}
+}
+
+/* text animation start*/
+.wrapper {
+/*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-demo {
+    z-index: 1;
+    filter: brightness(1);
+    width: 21ch;
+    height: 1em;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+/* text animation end*/
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+background-color: darkorange;
+}
+
+#myPage > footer > a > span {
+    font-size:20px;
+    color:sienna;
+}
+
+
+/* skill 레이아웃 조정 */
+#services > div > h4, #project > div > div > div > h1, #contact > div > h1{
+    margin-bottom: 30px;
+}
+
+#contact > div > h1, #project > div > div > div > h1 {
+    margin-top: 50px;
+}
+
+/* footer 폰트 크기 설정 */
+#myPage > footer > p { 
+    font-size:25px;
+}
+
+
+
+/* 메인페이지 모달창의 상세보기 버튼 */
+#project > div > div > div > div:nth-child(2) > div > div > div > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: antiquewhite;
+    justify-self: center;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+
+/* 프로젝트 툴팁 영역 기본스타일 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+ul {
+  position: relative;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  position: relative;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  z-index: 100;
+}
+
+.usedSkls i {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background: #18191f;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 20px;
+  box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+    4px 4px 6px rgba(0, 0, 0, 0.2),
+    inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+    inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+/*  
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
+    inset 4px 4px 6px rgba(0, 0, 0, 0.2);
+  color: yellow;
+  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+  animation: glow 1.5s linear infinite;
+*/  
+}
+
+/* div:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 75px;
+  height: 38px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+} */
+
+input[type="checkbox"]:checked ~ i {
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
+    inset 4px 4px 6px rgba(0, 0, 0, 0.2);
+  color: yellow;
+  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+  animation: glow 2.5s linear infinite;
+}
+
+@keyframes glow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* 프로젝트 hover 시 사용한 스킬 보여 주기 */
+
+.usedSkls{
+    height: 220px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    filter: opacity(0.01);
+    z-index: 10;
+    transition: all 0.3s ease 0s;
+    color: yellowgreen;
+    width: 90%;
+}
+
+
+.skl{
+    margin:8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.usedSkls:hover{
+    filter: opacity(1);
+    transition:0.3s;
+}
+
+#project > div > div > div > div:nth-child(2) > div > div > div > a:hover{
+    opacity: 1;
+    transition: 0.3s;
+    border: solid 5px chocolate;
+}
+
+/* skill hover */
+.hov{border-radius: 20px;  transition: 0.3s; padding: 25px 0;}
+.hov:hover { background-color: beige; transform: scale(0.95); transition: 0.3s; }

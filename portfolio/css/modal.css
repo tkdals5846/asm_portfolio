@@ -1,0 +1,123 @@
+/* modal css */
+/* 모달창의 배경을 만든다 */
+.modal{
+  position: fixed;
+  display: none;
+  top:0; left: 0; bottom: 0; right: 0;
+  transition: 0.3s;
+}
+
+.modal__background{
+  position: fixed;
+  top:0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* 모달창 영역을 꾸민다 */
+.modal__box{
+  position: absolute;
+  top: calc(50vh - 500px); left: calc(50vw - 800px);
+  background-color: white;
+  display: flex; justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 1600px;
+  height: 1000px;
+  
+}
+
+@media screen and (max-width: 1400px) {
+  .modal__box{
+    top: calc(50vh - 325px);
+    left: calc(50vw - 500px);
+    width: 1000px;
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .modal__box{
+    top: calc(50vh - 275px);
+    left: calc(50vw - 400px);
+    width: 800px;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .modal__box{
+    top: calc(50vh - 200px);
+    left: calc(50vw - 300px);
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .modal__box{
+    top: calc(50vh - 250px);
+    left: calc(50vw - 160px);
+    width: 320px;
+    height: 500px;
+  }
+
+  #project > div > div > div > div:nth-child(3) > div > div > div{
+    left: calc(50vw - 175px);
+    width: 350px;
+  }
+
+}
+.show{
+  display: flex;
+}
+
+.close{
+  display: none;
+}
+
+.modal__fade{
+  background-color: transparent;
+  position: absolute;
+  right:5px;
+  top:5px;
+  color:orange;
+  border-style: none;
+  font-size: 30px;
+}
+
+/* X 버튼 위치 조정 홈버튼과 곂침 */
+#project > div > div > div > div:nth-child(4) > div > div > div > button > i {
+  transform: translateY(-50px);
+}
+
+.modal__show{
+  border-radius: 10px;
+  position: relative;
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  max-height: 270px;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 10px;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.modal__show:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+  background-color:rgb(228, 208, 182);
+}
+
+.modal__show > img {
+  border-radius: 10px;
+}
+
+
+/* iframe 커스텀 */
+.box__custom{
+  border-style: none;
+  border-radius: 10px;
+  
+}
